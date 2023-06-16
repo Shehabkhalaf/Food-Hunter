@@ -1,0 +1,94 @@
+
+.profile .image {
+    background-image: url(https://www.talabat.com/assets/images/brandpage-bg.jpg);
+    position: relative;
+    min-height: 500px;
+}
+
+.profile .image img {
+    border-radius: 10px;
+    width: 120px;
+}
+
+.profile .image::before{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.703);
+}
+
+.profile .image h1 {
+    color: var(--orange-color);
+    margin: 10px 0;
+}
+
+.profile .restData i {
+    color: var(--orange-color);
+    font-size: 25px;
+}
+
+.profile .restData h6 {
+    margin: 0;
+    color: #333;
+}
+
+.profile .restData span {
+    color: var(--grey-color);
+    font-weight: 700;
+}
+
+.profile .description {
+    background-color: rgb(255, 255, 255);
+    border-top: 7px solid rgb(255, 90, 0);
+    box-shadow: rgb(153, 153, 153) -5px -7px 12px -5px, rgb(153, 153, 153) 4px -6px 12px -5px;
+    border-radius: 10px;
+}
+
+.profile .description h4 {
+    color: var(--orange-color);
+}
+
+.profile .description p {
+    color: var(--grey-color);
+    font-size: 15px;
+}
+
+.profile  h6 {
+    color: var(--grey-color);
+}
+
+.profile .dish p {
+    color: var(--grey-color);
+    font-size: 15px;
+}
+
+.setting h3 {
+    color: var(--grey-color);
+}
+
+.reviews  .box {
+    background-color: rgb(246, 246, 246);
+    padding: 1rem 2rem;
+    border-radius: 15px;
+}
+
+.reviews .box .date {
+    font-size: 13px;
+    color: var(--grey-color);
+}
+
+.reviews  .box h5 {
+    color: var(--orange-color);
+    font-weight: 700;
+}
+
+.reviews  .box .body {
+    color: #333;
+    font-size: 20px;
+}
+
+.reviews h4 {
+    color: var(--grey-color);
+}

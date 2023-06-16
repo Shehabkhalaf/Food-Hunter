@@ -1,0 +1,39 @@
+.titleInfo h5 {
+    color: #333 !important;
+}
+
+.titleInfo  span {
+    color: var(--grey-color);
+    font-size: 15px;
+}
+
+
+.dashBoard  label{
+    color: var(--grey-color);
+}
+
+.dashBoard input:focus,
+.dashBoard input:active{
+    border-color: #ffa35866;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #ffa35866;
+}
+
+
+.dashBoard .updateData {
+    color: white;
+    border: 1px solid var(--orange-color);
+    background-color: var(--orange-color);
+    padding: 10px 5px;
+    border-radius: 10px;
+    font-weight: 600;
+    width: 160px;
+    display: block;
+    margin-left: auto;
+    transition: 0.5s;
+}
+
+.dashBoard .updateData:hover {
+    background-color: white;
+    color: var(--orange-color);
+}

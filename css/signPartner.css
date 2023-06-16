@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    min-height: 100vh;
+    padding: 0;
+    color: white;
+    background: #000;
+    line-height: 1.7;
+}
+
+
+body * {
+    z-index: 2;
+}
+
+
+video {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+
+
+.signPartner input {
+    margin-bottom: 10px;
+    background-color: transparent;
+    color: var(--grey-color);
+    outline: none;
+    font-size: 15px;
+    border: 1px solid rgb(255 255 255 / 22%);
+}
+
+.signPartner input::placeholder {
+    color: var(--grey-color);
+}
+
+.signPartner input:focus {
+    background-color: transparent !important;
+    border-color: #ffa35866;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #ffa35866;
+    color: white;
+}
+
+.signPartner label {
+    color: var(--grey-color);
+}
+
+.signPartner button,
+.signPartner button:hover,
+.signPartner button:focus {
+    background-color: var(--orange-color);
+    color: white;
+    border: 1px solid var(--orange-color);
+    font-weight: 600;
+    box-shadow: none !important;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+.signPartner button:active {
+    box-shadow: none;
+}
+
+.signPartner .true {
+    border: 1px solid transparent;
+}
+
+.signPartner .false {
+    border: 1px solid red;
+}
+
+input:-internal-autofill-selected {
+    appearance: menulist-button;
+    background-image: none !important;
+    background-color: transparent !important;
+    color: fieldtext !important;
+}
+
+
+.form-check-input:checked {
+    background-color: var(--orange-color) !important;
+    border-color: #ffa35866;
+}

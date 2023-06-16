@@ -1,0 +1,195 @@
+@media(max-width:767px){
+    .titleRest {
+        flex-direction: column;
+        justify-content: start !important;
+        align-items: flex-start !important;
+    }
+}
+
+.restaurantOrder .descriptionRest {
+    border-bottom: 1px solid #77777730;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+}
+
+.restaurantOrder .titleRest h4 {
+    font-weight: 600;
+    margin: 1px;
+}
+
+.restaurantOrder .titleRest .part-2 p {
+    margin: 0;
+}
+
+.restaurantOrder .titleRest p {
+    color: var(--grey-color);
+}
+
+.restaurantOrder .titleRest .categories {
+    margin: 0;
+    font-size: 13px;
+}
+
+.restaurantOrder .titleRest img {
+    width: 100px;
+}
+
+.restaurantOrder .box {
+    border-bottom: 1px solid #77777730;
+}
+
+.restaurantOrder .box img {
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+}
+
+.restaurantOrder .box .description {
+    font-size: 15px;
+    color: var(--grey-color);
+}
+
+.restaurantOrder .box .addOrder {
+    color: white;
+    background-color: var(--orange-color);
+    border: 1px solid var(--orange-color);
+    border-radius: 12px;
+    padding: 3px 10px;
+    font-weight: 700;
+}
+
+.restaurantOrder .box h4 {
+    color: #333;
+    font-weight: 600;
+    margin: 1px 0px;
+}
+
+.restaurantOrder .box .price {
+    flex-basis: 40%;
+}
+
+.restaurantOrder .box .food {
+    flex-basis: 60%;
+}
+
+
+@media(max-width:767px) {
+    .restaurantOrder .box {
+        flex-direction: column;
+    }
+
+    .restaurantOrder .price {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .restaurantOrder .price p {
+        margin: 0;
+    }
+}
+
+.restaurantOrder .price p {
+    font-weight: 700;
+    font-size: 19px;
+    color: var(--orange-color);
+}
+
+.cart .titleCart {
+    background-color: var(--orange-color);
+    color: white;
+    font-weight: 700;
+    padding: 5px 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.cart .titleCart p {
+    margin: 0;
+}
+
+.cart .delete {
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    display: block;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
+}
+
+.cart .product p {
+    margin: 0;
+}
+
+.cart .product input {
+    border: 1px solid var(--orange-color);
+    width: 75px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.cart .product {
+    background-color: rgb(250, 250, 250);
+    border-top: 1px solid rgb(224, 224, 224);
+    max-height: 350px;
+    overflow-y: auto;
+
+}
+
+.cart .checkout {
+    background-color: rgb(0, 165, 60);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 80%;
+    display: block;
+    margin: auto;
+    font-weight: 700;
+    padding: 3px 0px;
+}
+
+.cart .footerCart p {
+    margin: 0;
+}
+
+.cart .footerCart .mount {
+    color: var(--orange-color);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.checkNone {
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+.buttonFeed {
+    color: white;
+    width: 100%;
+    display: block;
+    background-color: var(--orange-color);
+    border: none;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 5px 0px;
+    font-size: 20px;
+
+}
+
+.modal-content label {
+    color: var(--grey-color) !important;
+}
+
+.modal-dialog {
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+}
+
+.titlefeed {
+    font-size: 20px;
+    color: var(--orange-color);
+    font-weight: 600;
+}

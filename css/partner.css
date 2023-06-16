@@ -1,0 +1,297 @@
+.height-100 {
+    min-height: 100vh;
+}
+
+.partner ul {
+    list-style: none;
+    padding: 0;
+}
+
+.partner .part-1 {
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+    min-height: 100vh;
+}
+
+.partner ul a {
+    text-decoration: none;
+    display: block;
+    margin: 20px 15px;
+    color: #999;
+    transition: 0.5s;
+}
+
+.partner ul a:hover {
+    color: black;
+}
+
+.partner ul a.active {
+    color: black;
+}
+
+.partner ul a:hover i {
+    color: var(--orange-color);
+}
+
+
+.partner ul a i {
+    margin: 0 5px;
+    color: var(--orange-color);
+    font-size: 18px;
+}
+
+.partner .row .nonePadding {
+    padding: 0;
+}
+
+.partner nav {
+    background-color: var(--orange-color);
+}
+
+.partner nav .navbar-brand {
+    color: white;
+}
+
+.partner nav i {
+    color: white;
+}
+
+.partner nav i:hover,
+.partner nav .dropdown-toggle:focus {
+    color: white;
+}
+
+.partner nav .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.partner nav .fa-bars {
+    font-size: 35px;
+    color: white;
+}
+
+
+
+@media(max-width:768px) {
+    .bigScreen {
+        display: none;
+    }
+
+    .partner nav .navbar-collapse {
+        background-color: white;
+    }
+
+    .addFood {
+        padding: 10px 0px !important;
+    }
+
+}
+
+@media(min-width:768px) {
+    .smallScreen {
+        display: none;
+    }
+
+    .partner nav .fa-bars {
+        display: none;
+    }
+}
+
+
+.buttonAddFood {
+    border: 1px solid var(--orange-color);
+    background-color: var(--orange-color);
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 5px 0px;
+    margin: 5px 0;
+    transition: 0.5s;
+}
+
+.buttonAddFood:hover {
+    color: var(--orange-color);
+    background-color: white;
+}
+
+.partner input:focus,
+.partner select:focus {
+    background-color: transparent;
+    border-color: #ffa35866;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #ffa35866;
+}
+
+.partner .delete {
+    color: #f80031;
+    background-color: rgba(251, 175, 190, .5);
+    border: navajowhite;
+    border-radius: 9px;
+    font-size: 11px;
+    padding: 3px 10px;
+}
+
+
+.partner .edit {
+    color: #2643e9;
+    background-color: rgba(203,210,246,.5);
+    border: navajowhite;
+    border-radius: 9px;
+    font-size: 11px;
+    padding: 3px 10px;
+}
+
+.partner table img {
+    width: 60px;
+}
+
+.partner .dashBoard {
+    background-color: #f8f9fe;
+}
+
+.partner .dashBoard .box {
+    background-color: #fff;
+    padding: 15px 25px;
+    border-radius: 20px;
+}
+
+.partner .dashBoard .box .icon {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    color: white;
+    border-radius: 50%;
+}
+
+
+.partner .dashBoard .box .icon i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+}
+
+.partner .dashBoard .box h5 {
+    color: var(--grey-color);
+}
+
+.partner .dashBoard p {
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.partner .search .close {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid var(--orange-color);
+    background-color: var(--orange-color);
+    color: white;
+    font-size: 18px;
+    width: 35px;
+
+}
+
+.partner .search input {
+    width: 150px;
+    border-right: none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    box-shadow: none;
+}
+
+
+
+.false {
+    border: 1px solid red;
+}
+
+.partner .profile .image {
+    background-image: url(https://www.talabat.com/assets/images/brandpage-bg.jpg);
+    position: relative;
+    min-height: 500px;
+}
+
+.partner .profile .image img {
+    border-radius: 10px;
+    width: 120px;
+}
+
+.partner .profile .image::before{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.703);
+}
+
+.partner .profile .image h1 {
+    color: var(--orange-color);
+    margin: 10px 0;
+}
+
+.partner .profile .restData i {
+    color: var(--orange-color);
+    font-size: 25px;
+}
+
+.partner .profile .restData h6 {
+    margin: 0;
+    color: #333;
+}
+
+.partner .profile .restData span {
+    color: var(--grey-color);
+    font-weight: 700;
+}
+
+.partner .profile .description {
+    background-color: rgb(255, 255, 255);
+    border-top: 7px solid rgb(255, 90, 0);
+    box-shadow: rgb(153, 153, 153) -5px -7px 12px -5px, rgb(153, 153, 153) 4px -6px 12px -5px;
+    border-radius: 10px;
+}
+
+.partner .profile .description h4 {
+    color: var(--orange-color);
+}
+
+.partner .profile .description p {
+    color: var(--grey-color);
+    font-size: 15px;
+}
+
+.partner .profile  h6 {
+    color: var(--grey-color);
+}
+
+.partner .profile .dish p {
+    color: var(--grey-color);
+    font-size: 15px;
+}
+
+.partner .setting h3 {
+    color: var(--grey-color);
+}
+
+.offcanvas-start {
+    width: 100% !important;
+}
+
+
+.offcanvas-start input:focus,
+.offcanvas-start select:focus {
+    background-color: transparent;
+    border-color: #ffa35866;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #ffa35866;
+}
+
+.partner .dishes img {
+    width: 150px;
+}

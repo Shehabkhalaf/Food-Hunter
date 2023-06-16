@@ -1,0 +1,84 @@
+.box p {
+    color: var(--grey-color);
+    margin: 0;
+}
+
+.box  img {
+    width: 100px;
+    border: 1px solid rgba(119, 119, 119, 0.109);
+    margin-right: 10px;
+    transition: 0.5s;
+}
+
+.box  h5 {
+    margin: 0;
+    color: #333;
+}
+
+.box p.categories {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.box p.footer {
+    font-size: 15px;
+}
+
+.box {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #7773;
+}
+
+.boxes a {
+    text-decoration: none;
+    display: block;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.boxes a:hover img{
+    transform: scale(1.1);
+}
+
+.restaurants .title h2 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.titleFilter {
+    padding: 10px 0 0 0;
+    border-top: 1px solid #7773;
+}
+
+.restaurants input:focus,
+.restaurants input:active{
+    background-color: var(--orange-color) !important;
+    border-color: #ffa35866;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #ffa35866;
+    color: white;
+}
+
+.form-check-input:checked {
+    background-color: var(--orange-color) !important;
+    border-color: #ffa35866;
+}
+
+.apply {
+    display: block;
+    width: 100%;
+    margin: 5px 0 20px;
+    font-size: 18px;
+    color: white;
+    border: 1px solid var(--orange-color);
+    background-color: var(--orange-color);
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+
+@media (min-width: 992px) {
+    .restaurants .container {
+        max-width: 1060px;
+    }
+}

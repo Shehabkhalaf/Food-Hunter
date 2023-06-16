@@ -1,0 +1,60 @@
+.search .close {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid var(--orange-color);
+    background-color: var(--orange-color);
+    color: white;
+    font-size: 18px;
+    width: 35px;
+
+}
+
+.search input {
+    width: 200px !important;
+    border-right: none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    box-shadow: none;
+}
+
+.search input:focus {
+    background-color: transparent;
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+.search .form-control:focus {
+    border-color: var(--orange-color);
+}
+
+.restaurants a {
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid rgba(119, 119, 119, 0.242);
+    display: block;
+    transition: 0.5s;
+}
+
+.restaurants a:hover {
+    transform: scale(1.1);
+}
+
+
+.restaurants a .box h5 {
+    border-top: 1px solid rgba(119, 119, 119, 0.242);
+    padding: 10px 0 0 0;
+    color: #333;
+    margin: 0;
+}
+
+.restaurants a .box p {
+    color: var(--grey-color);
+    font-size: 14px;
+}
+
+.restaurants {
+    min-height: 500px;
+}

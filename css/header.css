@@ -1,0 +1,52 @@
+/* Start Header*/
+header nav {
+    top: 0;
+    z-index: 105000;
+    background-color: var(--orange-color);
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+}
+
+header nav ul {
+    width: 100%;
+    justify-content: end;
+}
+
+header nav .navbar-collapse li {
+    margin: 5px 0;
+}
+
+header nav .navbar-collapse li a {
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+header nav .navbar-collapse li a.link-special {
+    border: 1px solid;
+    border-radius: 10px;
+    transition: 0.5s;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    width: fit-content;
+}
+
+header nav .navbar-collapse li a.link-special:hover {
+    background-color: #ff7c12;
+}
+
+header nav .navbar-collapse li a:hover,
+header nav .navbar-collapse li a:focus,
+header nav i:hover,
+header nav .dropdown-toggle:focus {
+    color: white;
+}
+
+header nav .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+header nav i {
+    font-size: 35px;
+    color: white;
+}
+/* End Header */

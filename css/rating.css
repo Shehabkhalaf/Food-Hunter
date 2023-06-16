@@ -1,0 +1,107 @@
+p {
+    margin: 0;
+}
+.rating {
+    width: 75vw;
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.rating_average {
+    width: 30%;
+    background-color: #7777776e;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.rating_progress {
+    width: 70%;
+}
+
+.rating_average h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.rating_average p {
+    letter-spacing: 0.1rem;
+}
+
+.rating_progress-value {
+    column-gap: 1rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+.rating_progress-value .star {
+    font-size: 1.2rem;
+    color: gold;
+}
+
+
+.rating_progress-value p:last-child {
+    width: 10%;
+}
+
+.rating_progress .progress {
+    flex: 1 1 0;
+    height: .5rem;
+    border-radius: .5rem;
+}
+
+.bar {
+    height: 100%;
+    background-color: gold;
+    border-radius: .5rem;
+}
+
+.rating_average .star-outer {
+    position: relative;
+    font-size: 2rem;
+    display: inline-block;
+}
+
+.rating_average .star-outer::before {
+    content: "\2605 \2605 \2605 \2605 \2605";
+    color: #fff8;
+}
+
+.rating_average .star-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 50%;
+}
+
+.rating_average .star-inner::before {
+    content: "\2605 \2605 \2605 \2605 \2605";
+    color: gold;
+}
+
+@media(max-width:767px){
+    .rating {
+        flex-direction: column;
+    }
+
+    .rating {
+        width: 100%;
+    }
+    
+    .rating_average {
+        width: 100%;
+        margin: 5px 0;
+    }
+    
+    .rating_progress {
+        width: 100%;
+    }
+    
+}

@@ -1,0 +1,104 @@
+.landingContact {
+    position: relative;
+    background-image: url(../images/contact.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    color: white;
+
+}
+
+.landingContact * {
+    z-index: 2;
+    position: relative;
+}
+
+.landingContact .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.landingContact::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.293);
+    top: 0;
+    left: 0;
+}
+
+
+.body input:not(.btn) {
+    background-color: #f8f9fa !important;
+    border: none;
+}
+
+.body input:focus:not(.btn) {
+    background-color: #f8f9fa !important;
+}
+
+.body textarea {
+    background-color: #f8f9fa !important;
+    border: none !important;
+    height: 150px !important;
+}
+
+.body textarea:focus {
+    background-color: #f8f9fa !important;
+}
+
+.body input.btn:hover {
+    background-color: #fc9309c7;
+    color: white;
+}
+
+.body input.btn {
+    background-color: var(--orange-color);
+    color: white;
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    position: relative;
+    transition: 0.5s;
+}
+
+.body label {
+    color: #777;
+    font-size: 13px;
+}
+
+.body .form-control:focus {
+    box-shadow: 0 0 0 0.25rem #fda12b42;
+}
+
+.body h4 {
+    border-bottom: 1px solid #77777739;
+    padding-bottom: 8px;
+    color: var(--orange-color);
+}
+
+.body p {
+    color: var(--grey-color);
+    font-size: 15px;
+}
+
+.body a {
+    color: var(--orange-color);
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.body a:hover {
+    letter-spacing: 1.3px;
+}

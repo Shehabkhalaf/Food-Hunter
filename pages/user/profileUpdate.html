@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Hunter</title>
+    <!-- File Css Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- Font AweSome -->
+    <script src="https://kit.fontawesome.com/49f02d4a75.js" crossorigin="anonymous"></script>
+    <!-- File Css Main -->
+    <link rel="stylesheet" href="../../css/style.css" />
+    <!-- File Css Home -->
+    <link rel="stylesheet" href="../../css/profileUser.css">
+    <!-- File Css Header -->
+    <link rel="stylesheet" href="../../css/header.css">
+    <!-- File Css Footer -->
+    <link rel="stylesheet" href="../../css/footer.css">
+
+</head>
+
+<body>
+    <!-- Start Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="../../images/logo/food-hunter-logo.png" alt="logo" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="userHome.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="profileUser.html">My Account</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End Header -->
+    <!-- Start Profile -->
+    <div class="profile">
+        <div class="container">
+            <div class="title pt-5">
+                My Account
+            </div>
+            <div class="bodyProfile pt-3 pb-5">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <ul>
+                            <li><a href="profileUser.html">Account Info</a></li>
+                            <li><a href="profileOrder.html">My Orders</a></li>
+                            <li><a class="active" href="profileUpdate.html">Update Data</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="accountInfo">
+                            <form action="">
+                                <div class="row g-3 align-items-center  mb-2">
+                                    <div class="col-2">
+                                        <label for="name" class="col-form-label">Name</label>
+                                    </div>
+                                    <div class="col-10">
+                                        <input type="text" id="name" class="form-control"
+                                            aria-describedby="passwordHelpInline" value="">
+                                    </div>
+                                </div>
+                                <div class="row g-3 align-items-center mb-2">
+                                    <div class="col-2">
+                                        <label for="email" class="col-form-label">Email</label>
+                                    </div>
+                                    <div class="col-10">
+                                        <input type="text" id="email" class="form-control"
+                                            aria-describedby="passwordHelpInline" value="">
+                                    </div>
+                                </div>
+                                <div class="row g-3 align-items-center mb-2">
+                                    <div class="col-2">
+                                        <label for="location" class="col-form-label">Location</label>
+                                    </div>
+                                    <div class="col-10">
+                                        <input type="text" id="location" class="form-control"
+                                            aria-describedby="passwordHelpInline" value="">
+                                    </div>
+                                </div>
+                                <div class="row g-3 align-items-center mb-2">
+                                    <div class="col-2">
+                                        <label for="phone" class="col-form-label">Phone</label>
+                                    </div>
+                                    <div class="col-10">
+                                        <input type="text" id="phone" class="form-control"
+                                            aria-describedby="passwordHelpInline" value="">
+                                    </div>
+                                </div>
+                                <button id="updateData" class="updateData">Update Data</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Profile -->
+    <!-- Start Footer -->
+    <footer class="pt-5 pb-5">
+        <div class="container">
+            <div class="row part-1 pb-3">
+                <div class="col-lg-3 col-md-3 col-sm-12 mb-2">
+                    <a href="../termsAndconditions.html">Terms and Conditions</a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 mb-2">
+                    <a href="../FQA.html">FAQ</a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 mb-2">
+                    <a href="../privacyPolicy.html">Privacy Policy</a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 mb-2">
+                    <a href="../contact.html">Contact Us</a>
+                </div>
+            </div>
+            <div class="row part-2 pt-3 pb-3">
+                <div class="col-lg-2 col-md-2 col-sm-12">
+                    <p>Restaurants</p>
+                    <ul>
+                        <li>Taboon</li>
+                        <li>Planet Africa</li>
+                        <li>Al Aseel El Demashky</li>
+                        <li>Lan Yuan - Maadi</li>
+                        <li>More Restaurants...</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-12">
+                    <p>Popular Cuisines</p>
+                    <ul>
+                        <li>Italian</li>
+                        <li>Mexican</li>
+                        <li>Sandwiches</li>
+                        <li>Japanese</li>
+                        <li>More Cuisines...</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-12">
+                    <p>Popular Areas</p>
+                    <ul>
+                        <li>Masaken El Rehab</li>
+                        <li>Mostashfa AlHommeyat</li>
+                        <li>Salah ElDin Street</li>
+                        <li>Salah Nessim Street</li>
+                        <li>More Areas...</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-12">
+                    <p>Cities</p>
+                    <ul>
+                        <li>6th of October</li>
+                        <li>Alexandria</li>
+                        <li>Assiut</li>
+                        <li>Banha</li>
+                        <li>More Cities...</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <p>Follow us on</p>
+                    <ul class="icons d-flex pb-3">
+                        <li><i class="fa-brands fa-facebook"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                        <li><i class="fa-brands fa-linkedin-in"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row part-3 pt-3">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <p>For any support or help you can contact us via our Live Chat</p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 text-end">
+                    <p>©2023 FoodHunter.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <!-- File Js Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <!-- File Js Update user -->
+    <script src="../../js/updataUser.js"></script>
+</body>
+
+</html>
